@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Linda W. Chang</title>
+    <link>https://iamlindachang.github.io/authors/gershman-s/</link>
+      <atom:link href="https://iamlindachang.github.io/authors/gershman-s/index.xml" rel="self" type="application/rss+xml" />
+    <description>Linda W. Chang</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019 Linda Chang</copyright><lastBuildDate>Wed, 23 Oct 2019 15:11:02 -0400</lastBuildDate>
+    <image>
+      <url>https://iamlindachang.github.io/img/avatar.jpg</url>
+      <title>Linda W. Chang</title>
+      <link>https://iamlindachang.github.io/authors/gershman-s/</link>
+    </image>
+    
+    <item>
+      <title>Comparing value coding models of context dependence in social choice</title>
+      <link>https://iamlindachang.github.io/publication/2019-jesp/</link>
+      <pubDate>Wed, 23 Oct 2019 15:11:02 -0400</pubDate>
+      <guid>https://iamlindachang.github.io/publication/2019-jesp/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

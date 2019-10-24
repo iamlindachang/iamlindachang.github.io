@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publication_types | Linda W. Chang</title>
+    <link>https://iamlindachang.github.io/publication_types/</link>
+      <atom:link href="https://iamlindachang.github.io/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <description>Publication_types</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>2019 Linda Chang</copyright><lastBuildDate>Wed, 23 Oct 2019 15:11:02 -0400</lastBuildDate>
+    <image>
+      <url>https://iamlindachang.github.io/img/avatar.jpg</url>
+      <title>Publication_types</title>
+      <link>https://iamlindachang.github.io/publication_types/</link>
+    </image>
+    
+    <item>
+      <title>2</title>
+      <link>https://iamlindachang.github.io/publication_types/2/</link>
+      <pubDate>Wed, 23 Oct 2019 15:11:02 -0400</pubDate>
+      <guid>https://iamlindachang.github.io/publication_types/2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>0</title>
+      <link>https://iamlindachang.github.io/publication_types/0/</link>
+      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://iamlindachang.github.io/publication_types/0/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
