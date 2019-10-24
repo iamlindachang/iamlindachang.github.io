@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Recent &amp; Upcoming Talks | Linda W. Chang</title>
-    <link>https://iamlindachang.github.io/talk/</link>
-      <atom:link href="https://iamlindachang.github.io/talk/index.xml" rel="self" type="application/rss+xml" />
+    <link>www.iamlindachang.com/talk/</link>
+      <atom:link href="www.iamlindachang.com/talk/index.xml" rel="self" type="application/rss+xml" />
     <description>Recent &amp; Upcoming Talks</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019 Linda Chang</copyright>
     <image>
-      <url>https://iamlindachang.github.io/img/avatar.jpg</url>
+      <url>www.iamlindachang.com/img/avatar.jpg</url>
       <title>Recent &amp; Upcoming Talks</title>
-      <link>https://iamlindachang.github.io/talk/</link>
+      <link>www.iamlindachang.com/talk/</link>
     </image>
     
   </channel>
