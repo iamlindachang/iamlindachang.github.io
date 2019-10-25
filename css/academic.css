@@ -9012,3 +9012,6 @@ div.mermaid {
   width: 100%;
   text-align: center;
   margin-bottom: 1rem; }
+
+.nav-item a span {
+  font-size: 16px; }
