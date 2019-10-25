@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | Linda W. Chang</title>
-    <link>www.iamlindachang.com/tags/</link>
-      <atom:link href="www.iamlindachang.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.iamlindachang.com/tags/</link>
+      <atom:link href="https://www.iamlindachang.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019 Linda Chang</copyright><lastBuildDate>Fri, 29 Mar 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>www.iamlindachang.com/img/avatar.jpg</url>
+      <url>https://www.iamlindachang.com/img/avatar.jpg</url>
       <title>Tags</title>
-      <link>www.iamlindachang.com/tags/</link>
+      <link>https://www.iamlindachang.com/tags/</link>
     </image>
     
     <item>
       <title>comparative-cognition</title>
-      <link>www.iamlindachang.com/tags/comparative-cognition/</link>
+      <link>https://www.iamlindachang.com/tags/comparative-cognition/</link>
       <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>www.iamlindachang.com/tags/comparative-cognition/</guid>
+      <guid>https://www.iamlindachang.com/tags/comparative-cognition/</guid>
       <description></description>
     </item>
     

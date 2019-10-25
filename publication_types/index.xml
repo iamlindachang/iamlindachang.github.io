@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types | Linda W. Chang</title>
-    <link>www.iamlindachang.com/publication_types/</link>
-      <atom:link href="www.iamlindachang.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <link>https://www.iamlindachang.com/publication_types/</link>
+      <atom:link href="https://www.iamlindachang.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2019 Linda Chang</copyright><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>www.iamlindachang.com/img/avatar.jpg</url>
+      <url>https://www.iamlindachang.com/img/avatar.jpg</url>
       <title>Publication_types</title>
-      <link>www.iamlindachang.com/publication_types/</link>
+      <link>https://www.iamlindachang.com/publication_types/</link>
     </image>
     
     <item>
       <title>2</title>
-      <link>www.iamlindachang.com/publication_types/2/</link>
+      <link>https://www.iamlindachang.com/publication_types/2/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>www.iamlindachang.com/publication_types/2/</guid>
+      <guid>https://www.iamlindachang.com/publication_types/2/</guid>
       <description></description>
     </item>
     
     <item>
       <title>0</title>
-      <link>www.iamlindachang.com/publication_types/0/</link>
+      <link>https://www.iamlindachang.com/publication_types/0/</link>
       <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
-      <guid>www.iamlindachang.com/publication_types/0/</guid>
+      <guid>https://www.iamlindachang.com/publication_types/0/</guid>
       <description></description>
     </item>
     
