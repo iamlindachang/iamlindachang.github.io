@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.5.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -44,11 +44,14 @@
 
   
   
+
+  
+  
   
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -60,8 +63,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -70,6 +73,118 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
     
 
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
     
 
   
@@ -91,17 +206,56 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61901280-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-61901280-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon-32.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://www.iamlindachang.com/publication/2015-animbehav/">
 
+  
   
   
   
@@ -110,6 +264,9 @@
   
   
   <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@iamlindachang">
+  <meta property="twitter:creator" content="@iamlindachang">
   
   <meta property="og:site_name" content="linda w. chang">
   <meta property="og:url" content="https://www.iamlindachang.com/publication/2015-animbehav/">
@@ -127,8 +284,6 @@
 
 
     
-
-
 
 
 
@@ -161,7 +316,7 @@
     "name": "linda w. chang",
     "logo": {
       "@type": "ImageObject",
-      "url": "https://www.iamlindachang.com/img/icon-512.png"
+      "url": "https://www.iamlindachang.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
     }
   },
   "description": "Human adults and children respond negatively to inequity, even sacrificing personal gain to avoid both disadvantageous (more for you, less for me) and advantageous (more for me, less for you) resource allocations. Recent work has argued that some nonhuman animals share this response, but findings for inequity aversion outside of humans are controversial. Unfortunately, animals' negative responses to inequity are difficult to interpret because animal inequity aversion tasks differ in critical ways from the tasks used to test human inequity aversion. Here we present evidence from a novel task testing disadvantageous and advantageous inequity aversion in capuchin monkeys, *Cebus apella*. Our task was designed to closely mirror inequity aversion studies of human adults and children. We found no evidence for either disadvantageous or advantageous inequity aversion. Instead, capuchins' decisions were guided solely by the food resource that they were offered. Moreover, subjects' decisions and reaction times did not vary across social and nonsocial conditions. Our findings suggest that capuchin monkeys do not exhibit a human-like response to inequity on tasks in which even young children are known to demonstrate inequity aversion. We discuss these results in the context of existing theories for the evolution of fairness."
@@ -221,24 +376,41 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">linda w. chang</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
+    </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="navbar">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">linda w. chang</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
         
@@ -351,29 +523,28 @@
         
 
       
+
+        
       </ul>
-      <ul class="navbar-nav ml-auto">
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
       
 
-        
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
+      
 
-        
+    </ul>
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
-      </ul>
-
-    </div>
   </div>
 </nav>
 
@@ -416,11 +587,8 @@
   <div>
     
 
-
-
   
-  <span><a href="/authors/mcauliffe-k/">McAuliffe K.</a></span>, <span><a href="/authors/chang-l/">Chang L.W.</a></span>, <span><a href="/authors/leimgruber-k/">Leimgruber K.L.</a></span>, <span><a href="/authors/spaulding-r/">Spaulding R.</a></span>, <span><a href="/authors/blake-p/">Blake P.R.</a></span>, <span><a href="/authors/santos-l/">Santos L.R.</a></span>
-
+  <span><a href="/author/">McAuliffe K.</a></span>, <span><a href="/author/">Chang L.W.</a></span>, <span><a href="/author/">Leimgruber K.L.</a></span>, <span><a href="/author/">Spaulding R.</a></span>, <span><a href="/author/">Blake P.R.</a></span>, <span><a href="/author/">Santos L.R.</a></span>
   </div>
   
   
@@ -559,7 +727,7 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/comparative-cognition/">comparative-cognition</a>
+  <a class="badge badge-light" href="/tag/comparative-cognition/">comparative-cognition</a>
   
 </div>
 
@@ -590,7 +758,7 @@
       
       <li>
         <a href="https://www.facebook.com/sharer.php?u=https://www.iamlindachang.com/publication/2015-animbehav/&amp;t=Capuchin%20monkeys,%20Cebus%20apella,%20show%20no%20evidence%20for%20inequity%20aversion%20in%20a%20costly%20choice%20task" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-facebook"></i>
         </a>
       </li>
     
@@ -628,7 +796,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Capuchin%20monkeys,%20Cebus%20apella,%20show%20no%20evidence%20for%20inequity%20aversion%20in%20a%20costly%20choice%20task%20https://www.iamlindachang.com/publication/2015-animbehav/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Capuchin%20monkeys,%20Cebus%20apella,%20show%20no%20evidence%20for%20inequity%20aversion%20in%20a%20costly%20choice%20task%20https://www.iamlindachang.com/publication/2015-animbehav/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -661,16 +829,14 @@
 
 
   
-  
     
+    
+
+
+
+
+
   
-  
-
-
-
-
-
-
   
   
   
@@ -679,7 +845,7 @@
     
 
     <div class="media-body">
-      <h5 class="card-title"><a href="/authors/mcauliffe-k/">McAuliffe K.</a></h5>
+      <h5 class="card-title"><a href="/author/">McAuliffe K.</a></h5>
       
       
       <ul class="network-icon" aria-hidden="true">
@@ -688,6 +854,150 @@
 
     </div>
   </div>
+
+
+  
+    
+    
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/">Chang L.W.</a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+    
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/">Leimgruber K.L.</a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+    
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/">Spaulding R.</a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+    
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/">Blake P.R.</a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+    
+    
+
+
+
+
+
+  
+  
+  
+  
+  
+  <div class="media author-card content-widget-hr">
+    
+
+    <div class="media-body">
+      <h5 class="card-title"><a href="/author/">Santos L.R.</a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+  
+</ul>
+
+    </div>
+  </div>
+
+
+  
+
 
 
 
@@ -705,6 +1015,14 @@
       
       <li><a href="/publication/2019-frontpsychol/">Do dogs prefer helpers in an infant-based social evaluation task?</a></li>
       
+      <li><a href="/publication/2018-behavscientist/">Want to Debias Hiring? Change What Hiring Managers Focus On</a></li>
+      
+      <li><a href="/publication/2019-jesp/">Comparing value coding models of context dependence in social choice</a></li>
+      
+      <li><a href="/publication/2016-curropinpsychol/">Effects of intergroup threat on mind, brain, and behavior</a></li>
+      
+      <li><a href="/publication/2018-jpsp/">Social decoys: Leveraging choice architecture to alter social preferences</a></li>
+      
     </ul>
   </div>
   
@@ -718,9 +1036,6 @@
 
     
     
-
-    
-    
     
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
@@ -731,14 +1046,12 @@
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
-      
-      
     
 
     
@@ -748,7 +1061,12 @@
 
     
     
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
     
 
     
@@ -813,7 +1131,7 @@
     
     
     
-    <script src="/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
+    <script src="/js/academic.min.c816d323c3a55093dae0829b44ea1ca8.js"></script>
 
     
 

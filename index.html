@@ -6,7 +6,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.5.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
   
 
@@ -44,11 +44,14 @@
 
   
   
+
+  
+  
   
   
     
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
@@ -60,8 +63,8 @@
       
       
         
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
         
       
     
@@ -70,6 +73,118 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
     
 
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
     
 
   
@@ -91,6 +206,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61901280-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-61901280-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -99,11 +252,12 @@
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon-32.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://www.iamlindachang.com/">
 
+  
   
   
   
@@ -112,6 +266,9 @@
   
   
   <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@iamlindachang">
+  <meta property="twitter:creator" content="@iamlindachang">
   
   <meta property="og:site_name" content="linda w. chang">
   <meta property="og:url" content="https://www.iamlindachang.com/">
@@ -130,10 +287,10 @@
   "@type": "WebSite",
   "potentialAction": {
     "@type": "SearchAction",
-    "target": "https://www.iamlindachang.com/?q={search_term_string}",
+    "target": "https://www.iamlindachang.com?q={search_term_string}",
     "query-input": "required name=search_term_string"
   },
-  "url": "https://www.iamlindachang.com/"
+  "url": "https://www.iamlindachang.com"
 }
 </script>
 
@@ -189,24 +346,41 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">linda w. chang</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
+    </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="navbar">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">linda w. chang</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
 
       
-      
-      <ul class="navbar-nav mr-auto">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
         
@@ -319,29 +493,28 @@
         
 
       
+
+        
       </ul>
-      <ul class="navbar-nav ml-auto">
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
       
 
-        
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
+      
 
-        
+    </ul>
 
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
-      </ul>
-
-    </div>
   </div>
 </nav>
 
@@ -418,13 +591,14 @@
 
 
 
+
 <div class="row">
   <div class="col-12 col-lg-4">
     <div id="profile">
 
       
       
-      <img class="portrait" src="/authors/admin/avatar_hudf7b8620e192de66d79d1f7e36df7824_2823469_250x250_fill_q90_lanczos_center.jpg" alt="Avatar">
+      <img class="avatar avatar-circle" src="/author/avatar_hudf7b8620e192de66d79d1f7e36df7824_2823469_270x270_fill_q90_lanczos_center.jpg" alt="Avatar">
       
 
       <div class="portrait-title">
@@ -545,7 +719,8 @@
     
     <h1>who am i?</h1>
 
-    <p>I am a doctoral student in the Psychology Department at Harvard University working in the <a href="http://http://www.intergroupneurosciencelaboratory.com/">Intergroup Neuroscience Laboratory</a> directed by [Mina Cikara] (<a href="https://psychology.fas.harvard.edu/people/mina-cikara)">https://psychology.fas.harvard.edu/people/mina-cikara)</a>. I investigate the psychological mechanisms underlying bias and discrimination in social decision-making. I am interested in creating scalable interventions to reduce harm and increase equity. Previously, I worked in the [Comparative Cognition Laboratory] (<a href="https://caplab.yale.edu/">https://caplab.yale.edu/</a>) and [Canine Cognition Center] (<a href="https://doglab.yale.edu/">https://doglab.yale.edu/</a>) directed by [Laurie Santos] (<a href="https://psychology.yale.edu/people/laurie-santos)">https://psychology.yale.edu/people/laurie-santos)</a>.</p>
+    <p>I am a doctoral student in the Psychology Department at Harvard University working in the 
+<a href="http://http://www.intergroupneurosciencelaboratory.com/" target="_blank" rel="noopener">Intergroup Neuroscience Laboratory</a> directed by [Mina Cikara] (<a href="https://psychology.fas.harvard.edu/people/mina-cikara)">https://psychology.fas.harvard.edu/people/mina-cikara)</a>. I investigate the psychological mechanisms underlying bias and discrimination in social decision-making. I am interested in creating scalable interventions to reduce harm and increase equity. Previously, I worked in the [Comparative Cognition Laboratory] (<a href="https://caplab.yale.edu/">https://caplab.yale.edu/</a>) and [Canine Cognition Center] (<a href="https://doglab.yale.edu/">https://doglab.yale.edu/</a>) directed by [Laurie Santos] (<a href="https://psychology.yale.edu/people/laurie-santos)">https://psychology.yale.edu/people/laurie-santos)</a>.</p>
 <p>I am part of [The Rising Over Oppression Through Solidarity (ROOTS) Project, Inc.] (<a href="http://inclusiveroots.org/),">http://inclusiveroots.org/),</a> based in New Jersey. Our organization is dedicated to using a multidimensional approach with children, educators, and families to create a more equitable and inclusive society. Each summer, we hold a week-long residential program for high school students where we build community in order to develop tools to challenge bias, bullying, and oppression as well as create growth plans to catalyze change at personal, interpersonal, and systemic levels.</p>
 
 
@@ -671,6 +846,7 @@
 
 
 
+
   
 
 
@@ -682,12 +858,16 @@
 
 <div class="row">
   <div class="col-12 col-lg-4 section-heading">
-    <h1>Publications</h1>
+    <h1>Recent Publications</h1>
     
   </div>
   <div class="col-12 col-lg-8">
 
-    <!-- raw HTML omitted -->
+    <div class="alert alert-note">
+  <div>
+    Quickly discover relevant content by <a href="https://www.iamlindachang.com/publication/">filtering publications</a>.
+  </div>
+</div>
 
 
     
@@ -732,11 +912,8 @@
       <div>
         
 
-
-
   
-  <span><a href="/authors/chang-l/">Chang L.W.</a></span>, <span><a href="/authors/gershman-s/">Gershman S.J.</a></span>, <span><a href="/authors/cikara-m/">Cikara M.</a></span>
-
+  <span><a href="/author/">Chang L.W.</a></span>, <span><a href="/author/">Gershman S.J.</a></span>, <span><a href="/author/">Cikara M.</a></span>
       </div>
       
     </div>
@@ -859,11 +1036,8 @@
       <div>
         
 
-
-
   
-  <span><a href="/authors/mcauliffe-k/">McAuliffe K.</a></span>, <span><a href="/authors/bogese-m/">Bogese M.</a></span>, <span><a href="/authors/chang-l/">Chang L.W.</a></span>, <span><a href="/authors/andrews-c/">Andrews C.E.</a></span>, <span><a href="/authors/mayer-t/">Mayer T.</a></span>, <span><a href="/authors/faranda-a/">Faranda A.</a></span>, <span><a href="/authors/hamlin-k/">Hamlin J.K.</a></span>, <span><a href="/authors/santos-l/">Santos L.R.</a></span>
-
+  <span><a href="/author/">McAuliffe K.</a></span>, <span><a href="/author/">Bogese M.</a></span>, <span><a href="/author/">Chang L.W.</a></span>, <span><a href="/author/">Andrews C.E.</a></span>, <span><a href="/author/">Mayer T.</a></span>, <span><a href="/author/">Faranda A.</a></span>, <span><a href="/author/">Hamlin J.K.</a></span>, <span><a href="/author/">Santos L.R.</a></span>
       </div>
       
     </div>
@@ -956,11 +1130,8 @@
       <div>
         
 
-
-
   
-  <span><a href="/authors/chang-l/">Chang L.W.</a></span>, <span><a href="/authors/cikara-m/">Cikara M.</a></span>
-
+  <span><a href="/author/">Chang L.W.</a></span>, <span><a href="/author/">Cikara M.</a></span>
       </div>
       
     </div>
@@ -1120,15 +1291,9 @@
       
       
         
-        
-        
-        
-        
-        
-        
         <li>
           <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
-          <span id="person-address">33 Kirkland Street, Cambridge, MA, 02138, United States</span>
+          <span id="person-address">33 Kirkland Street, Cambridge, MA 02138</span>
         </li>
       
 
@@ -1157,9 +1322,6 @@
 
     
     
-
-    
-    
     
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
@@ -1170,14 +1332,12 @@
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
         
       
 
-      
-      
     
 
     
@@ -1187,7 +1347,12 @@
 
     
     
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
     
 
     
@@ -1252,7 +1417,7 @@
     
     
     
-    <script src="/js/academic.min.d6bd04fdad2ad213aa8111c5a3b72fc5.js"></script>
+    <script src="/js/academic.min.c816d323c3a55093dae0829b44ea1ca8.js"></script>
 
     
 
