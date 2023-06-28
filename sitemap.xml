@@ -2,49 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://www.iamlindachang.com/publication-type/2/</loc>
-    <lastmod>2019-08-05T00:00:00+00:00</lastmod>
+    <loc>www.iamlindachang.com/</loc>
+    <lastmod>2022-10-24T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://www.iamlindachang.com/publication/2019-jesp/</loc>
+    <loc>www.iamlindachang.com/publication-type/2/</loc>
     <lastmod>2019-08-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://www.iamlindachang.com/</loc>
+    <loc>www.iamlindachang.com/publication/2019-jesp/</loc>
     <lastmod>2019-08-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://www.iamlindachang.com/publication_types/</loc>
+    <loc>www.iamlindachang.com/publication_types/</loc>
     <lastmod>2019-08-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://www.iamlindachang.com/publication/</loc>
+    <loc>www.iamlindachang.com/publication/</loc>
     <lastmod>2019-08-05T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://www.iamlindachang.com/tag/comparative-cognition/</loc>
+    <loc>www.iamlindachang.com/tag/comparative-cognition/</loc>
     <lastmod>2019-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://www.iamlindachang.com/publication/2019-frontpsychol/</loc>
+    <loc>www.iamlindachang.com/publication/2019-frontpsychol/</loc>
     <lastmod>2019-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://www.iamlindachang.com/tags/</loc>
+    <loc>www.iamlindachang.com/tags/</loc>
     <lastmod>2019-03-29T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://www.iamlindachang.com/publication/2018-jpsp/</loc>
+    <loc>www.iamlindachang.com/publication/2018-jpsp/</loc>
     <lastmod>2018-08-01T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://www.iamlindachang.com/publication-type/0/</loc>
+    <loc>www.iamlindachang.com/publication-type/0/</loc>
     <lastmod>2018-05-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://www.iamlindachang.com/publication/2018-behavscientist/</loc>
+    <loc>www.iamlindachang.com/publication/2018-behavscientist/</loc>
     <lastmod>2018-05-22T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://www.iamlindachang.com/publication/2016-curropinpsychol/</loc>
+    <loc>www.iamlindachang.com/publication/2016-curropinpsychol/</loc>
     <lastmod>2016-06-16T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://www.iamlindachang.com/publication/2015-animbehav/</loc>
+    <loc>www.iamlindachang.com/publication/2015-animbehav/</loc>
     <lastmod>2015-03-13T00:00:00+00:00</lastmod>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://www.iamlindachang.com/categories/</loc>
+    <loc>www.iamlindachang.com/admin/</loc>
+    <changefreq>weekly</changefreq>
   </url><url>
-    <loc>https://www.iamlindachang.com/post/</loc>
-  </url><url>
-    <loc>https://www.iamlindachang.com/talk/</loc>
+    <loc>www.iamlindachang.com/categories/</loc>
+    <changefreq>weekly</changefreq>
   </url>
 </urlset>

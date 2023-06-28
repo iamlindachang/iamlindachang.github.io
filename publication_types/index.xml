@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Publication_types | linda w. chang</title>
-    <link>https://www.iamlindachang.com/publication_types/</link>
-      <atom:link href="https://www.iamlindachang.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
+    <link>www.iamlindachang.com/publication_types/</link>
+      <atom:link href="www.iamlindachang.com/publication_types/index.xml" rel="self" type="application/rss+xml" />
     <description>Publication_types</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>©2022 Linda Chang</copyright><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://www.iamlindachang.com/media/avatar.jpg</url>
+      <url>/www.iamlindachang.com/media/icon_hu5377b88c48c84cb90fc4800219acf32a_96197_512x512_fill_lanczos_center_3.png</url>
       <title>Publication_types</title>
-      <link>https://www.iamlindachang.com/publication_types/</link>
+      <link>www.iamlindachang.com/publication_types/</link>
     </image>
     
   </channel>
