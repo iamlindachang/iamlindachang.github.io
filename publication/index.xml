@@ -1,63 +1,67 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Publications | linda w. chang</title>
-    <link>www.iamlindachang.com/publication/</link>
-      <atom:link href="www.iamlindachang.com/publication/index.xml" rel="self" type="application/rss+xml" />
+    <title>Publications | Academic</title>
+    <link>https://example.com/publication/</link>
+      <atom:link href="https://example.com/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Publications</description>
-    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 07 Apr 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/www.iamlindachang.com/media/icon_hu5377b88c48c84cb90fc4800219acf32a_96197_512x512_fill_lanczos_center_3.png</url>
+      <url>https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Publications</title>
-      <link>www.iamlindachang.com/publication/</link>
+      <link>https://example.com/publication/</link>
     </image>
     
     <item>
-      <title>Comparing value coding models of context dependence in social choice</title>
-      <link>www.iamlindachang.com/publication/2019-jesp/</link>
-      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>www.iamlindachang.com/publication/2019-jesp/</guid>
-      <description></description>
+      <title>An example preprint / working paper</title>
+      <link>https://example.com/publication/preprint/</link>
+      <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/preprint/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Do dogs prefer helpers in an infant-based social evaluation task?</title>
-      <link>www.iamlindachang.com/publication/2019-frontpsychol/</link>
-      <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>www.iamlindachang.com/publication/2019-frontpsychol/</guid>
-      <description></description>
+      <title>An example journal article</title>
+      <link>https://example.com/publication/journal-article/</link>
+      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/journal-article/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
-      <title>Social decoys: Leveraging choice architecture to alter social preferences</title>
-      <link>www.iamlindachang.com/publication/2018-jpsp/</link>
-      <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>www.iamlindachang.com/publication/2018-jpsp/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Want to Debias Hiring? Change What Hiring Managers Focus On</title>
-      <link>www.iamlindachang.com/publication/2018-behavscientist/</link>
-      <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
-      <guid>www.iamlindachang.com/publication/2018-behavscientist/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Effects of intergroup threat on mind, brain, and behavior</title>
-      <link>www.iamlindachang.com/publication/2016-curropinpsychol/</link>
-      <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>www.iamlindachang.com/publication/2016-curropinpsychol/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Capuchin monkeys, Cebus apella, show no evidence for inequity aversion in a costly choice task</title>
-      <link>www.iamlindachang.com/publication/2015-animbehav/</link>
-      <pubDate>Fri, 13 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>www.iamlindachang.com/publication/2015-animbehav/</guid>
-      <description></description>
+      <title>An example conference paper</title>
+      <link>https://example.com/publication/conference-paper/</link>
+      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://example.com/publication/conference-paper/</guid>
+      <description>&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Create your slides in Markdown - click the &lt;em&gt;Slides&lt;/em&gt; button to check out the example.
+  &lt;/div&gt;
+&lt;/div&gt;
+&lt;p&gt;Supplementary notes can be added here, including &lt;a href=&#34;https://wowchemy.com/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code, math, and images&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

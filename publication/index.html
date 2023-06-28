@@ -57,8 +57,8 @@
   
     
       
-      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:ital@0;1&family=Roboto+Mono:wght@700&display=swap">
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:ital@0;1&family=Roboto+Mono:wght@700&display=swap" media="print" onload="this.media='all'">
+      <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media="print" onload="this.media='all'">
     
   
 
@@ -70,7 +70,7 @@
 
   
 
-  <link rel="stylesheet" href="/www.iamlindachang.com/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
+  <link rel="stylesheet" href="/css/vendor-bundle.min.047268c6dd09ad74ba54a0ba71837064.css" media="print" onload="this.media='all'">
 
   
   
@@ -212,7 +212,7 @@
   
   
   
-  <link rel="stylesheet" href="/www.iamlindachang.com/css/wowchemy.a78e0d02e6b2e0e529ec4378e8d3a612.css" />
+  <link rel="stylesheet" href="/css/wowchemy.042e26407c9e383d96a1f26d6787c686.css" />
 
   
   
@@ -227,8 +227,8 @@
   
     
     
-    <link rel="stylesheet" href="/www.iamlindachang.com/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
-    <link rel="stylesheet" href="/www.iamlindachang.com/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
+    <link rel="stylesheet" href="/css/libs/chroma/github-light.min.css" title="hl-light" media="print" onload="this.media='all'" >
+    <link rel="stylesheet" href="/css/libs/chroma/dracula.min.css" title="hl-dark" media="print" onload="this.media='all'" disabled>
   
 
   
@@ -236,45 +236,6 @@
 
 
 
-
-
-
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-61901280-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-
-  function gtag() {
-      dataLayer.push(arguments);
-  }
-
-  function trackOutboundLink(url, target) {
-    gtag('event', 'click', {
-         'event_category': 'outbound',
-         'event_label': url,
-         'transport_type': 'beacon',
-         'event_callback': function () {
-           if (target !== '_blank') {
-             document.location = url;
-           }
-         }
-    });
-    console.debug("Outbound link clicked: " + url);
-  }
-
-  function onClickCallback(event) {
-    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
-      return;
-    }
-    trackOutboundLink(event.target, event.target.getAttribute('target'));  
-  }
-
-  gtag('js', new Date());
-  gtag('config', 'UA-61901280-1', {});
-  gtag('set', {'cookie_flags': 'SameSite=None;Secure'});
-
-  
-  document.addEventListener('click', onClickCallback, false);
-</script>
 
 
 
@@ -307,7 +268,7 @@
 
 
 
-  <meta name="author" content="Linda W. Chang" />
+  <meta name="author" content="Alice Wu 吳恩達" />
 
 
 
@@ -319,17 +280,17 @@
 
 
 
-<link rel="alternate" hreflang="en-us" href="www.iamlindachang.com/publication/" />
-<link rel="canonical" href="www.iamlindachang.com/publication/" />
+<link rel="alternate" hreflang="en-us" href="https://example.com/publication/" />
+<link rel="canonical" href="https://example.com/publication/" />
 
 
 
-  <link rel="manifest" href="www.iamlindachang.com/manifest.webmanifest" />
+  <link rel="manifest" href="/manifest.webmanifest" />
 
 
 
-<link rel="icon" type="image/png" href="/www.iamlindachang.com/media/icon_hu5377b88c48c84cb90fc4800219acf32a_96197_32x32_fill_lanczos_center_3.png" />
-<link rel="apple-touch-icon" type="image/png" href="/www.iamlindachang.com/media/icon_hu5377b88c48c84cb90fc4800219acf32a_96197_180x180_fill_lanczos_center_3.png" />
+<link rel="icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_3.png" />
+<link rel="apple-touch-icon" type="image/png" href="/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_180x180_fill_lanczos_center_3.png" />
 
 <meta name="theme-color" content="#1565c0" />
 
@@ -354,39 +315,39 @@
 
   <meta property="twitter:site" content="@wowchemy" />
   <meta property="twitter:creator" content="@wowchemy" />
-<meta property="twitter:image" content="/www.iamlindachang.com/media/icon_hu5377b88c48c84cb90fc4800219acf32a_96197_512x512_fill_lanczos_center_3.png" />
-<meta property="og:site_name" content="linda w. chang" />
-<meta property="og:url" content="www.iamlindachang.com/publication/" />
-<meta property="og:title" content="Publications | linda w. chang" />
-<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="/www.iamlindachang.com/media/icon_hu5377b88c48c84cb90fc4800219acf32a_96197_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
+<meta property="twitter:image" content="https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" />
+<meta property="og:site_name" content="Academic" />
+<meta property="og:url" content="https://example.com/publication/" />
+<meta property="og:title" content="Publications | Academic" />
+<meta property="og:description" content="A highly-customizable Hugo academic resume theme powered by Wowchemy website builder." /><meta property="og:image" content="https://example.com/media/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png" /><meta property="og:locale" content="en-us" />
 
   
-    <meta property="og:updated_time" content="2019-08-05T00:00:00&#43;00:00" />
-  
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-
-  
-  
-    <link rel="alternate" href="www.iamlindachang.com/publication/index.xml" type="application/rss+xml" title="linda w. chang" />
-  
-
+    <meta property="og:updated_time" content="2019-04-07T00:00:00&#43;00:00" />
   
 
 
+
+
+
+
+
+
+
+
   
-  <title>Publications | linda w. chang</title>
+  
+  
+
+  
+  
+    <link rel="alternate" href="/publication/index.xml" type="application/rss+xml" title="Academic" />
+  
+
+  
+
+
+  
+  <title>Publications | Academic</title>
 
   
   
@@ -417,7 +378,7 @@
   
   
   
-  <script src="/www.iamlindachang.com/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
+  <script src="/js/wowchemy-init.min.ec9d49ca50e4b80bdb08f0417a28ed84.js"></script>
 
   
 
@@ -485,7 +446,7 @@
 
       
       <div class="d-none d-lg-inline-flex">
-        <a class="navbar-brand" href="www.iamlindachang.com/">linda w. chang</a>
+        <a class="navbar-brand" href="/">Academic</a>
       </div>
       
 
@@ -498,7 +459,7 @@
 
       
       <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-        <a class="navbar-brand" href="www.iamlindachang.com/">linda w. chang</a>
+        <a class="navbar-brand" href="/">Academic</a>
       </div>
       
 
@@ -541,67 +502,7 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/www.iamlindachang.com/#about"><span>Home</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link  active" href="/www.iamlindachang.com/publication"><span>Publications</span></a>
-          </li>
-
-          
-          
-
-          
-
-          
-          
-          
-            
-          
-
-          
-
-          
-          
-          
-          
-
-          
-            
-              
-              
-            
-            
-          
-
-          <li class="nav-item">
-            <a class="nav-link " href="/www.iamlindachang.com/uploads/cv.pdf"><span>CV</span></a>
+            <a class="nav-link " href="/#about"><span>Home</span></a>
           </li>
 
           
@@ -638,7 +539,155 @@
           
 
           <li class="nav-item">
-            <a class="nav-link " href="/www.iamlindachang.com/#contact"><span>Contact</span></a>
+            <a class="nav-link " href="/#posts"><span>Posts</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#projects"><span>Projects</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#talks"><span>Talks</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#featured"><span>Publications</span></a>
+          </li>
+
+          
+          
+
+          
+
+          
+          
+          
+            
+          
+
+          
+
+          
+          
+          
+          
+
+          
+            
+              
+              
+            
+            
+              
+              
+              
+                
+              
+              
+            
+          
+
+          <li class="nav-item">
+            <a class="nav-link " href="/#contact"><span>Contact</span></a>
           </li>
 
           
@@ -654,6 +703,13 @@
 
         
         
+          
+            
+            <li class="nav-item d-none d-lg-inline-flex">
+              <a class="nav-link" href="https://twitter.com/GeorgeCushen" data-toggle="tooltip" data-placement="bottom" title="Follow me on Twitter" target="_blank" rel="noopener" aria-label="Follow me on Twitter">
+                <i class="fab fa-twitter" aria-hidden="true"></i>
+              </a>
+            </li>
           
         
 
@@ -754,15 +810,6 @@
         
         
       
-        
-        
-      
-        
-        
-      
-        
-        
-      
 
       <div class="form-row mb-4">
         <div class="col-auto">
@@ -774,12 +821,16 @@
             <option value="*">Type</option>
             
             
-            <option value=".pubtype-0">
-              Uncategorized
+            <option value=".pubtype-1">
+              Conference paper
             </option>
             
             <option value=".pubtype-2">
               Journal article
+            </option>
+            
+            <option value=".pubtype-3">
+              Preprint
             </option>
             
           </select>
@@ -794,16 +845,12 @@
               2019
             </option>
             
-            <option value=".year-2018">
-              2018
-            </option>
-            
-            <option value=".year-2016">
-              2016
-            </option>
-            
             <option value=".year-2015">
               2015
+            </option>
+            
+            <option value=".year-2013">
+              2013
             </option>
             
             
@@ -818,60 +865,26 @@
           
         
 
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2019">
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-3 year-2019">
           
 
 
-
-
-
-
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
-
-
-
-
-
-
-
   
 
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="www.iamlindachang.com/publication/2019-jesp/" >Comparing value coding models of context dependence in social choice</a>
-    </div>
-
-    
-    <a href="www.iamlindachang.com/publication/2019-jesp/"  class="summary-link">
-      <div class="article-style">
-        Decision-makers consistently exhibit violations of rational choice theory when they choose among several alternatives in a set (e.g., …
-      </div>
-    </a>
+  <span class="article-metadata li-cite-author">
     
 
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Linda W. Chang</span>, <span >
-      Samuel J. Gershman</span>, <span >
-      Mina Cikara</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
+  <span class="author-highlighted">
+      Alice Wu 吳恩達</span>
+  </span>
+  (2019).
+  <a href="/publication/preprint/">An example preprint / working paper</a>.
+  
+  <p>
 
 
 
@@ -881,510 +894,96 @@
 
 
   
+    
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+  PDF
+</a>
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.jesp.2019.103847" target="_blank" rel="noopener">
-  DOI
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
+  Code
 </a>
 
 
   
   
-  
     
   
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://psyarxiv.com/h9xkp" target="_blank" rel="noopener">
-    Psyarxiv</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://osf.io/4zwsd/" target="_blank" rel="noopener">
-    <i class="ai ai-osf mr-1"></i>OSF</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-        </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2019">
-          
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="www.iamlindachang.com/publication/2019-frontpsychol/" >Do dogs prefer helpers in an infant-based social evaluation task?</a>
-    </div>
-
-    
-    <a href="www.iamlindachang.com/publication/2019-frontpsychol/"  class="summary-link">
-      <div class="article-style">
-        Social evaluative abilities emerge in human infancy, highlighting their importance in shaping our species&rsquo; early understanding of …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Katherine McAuliffe</span>, <span >
-      Michael Bogese</span>, <span >
-      Linda W. Chang</span>, <span >
-      Caitlin E. Andrews</span>, <span >
-      Tanya Mayer</span>, <span >
-      Aja Faranda</span>, <span >
-      J. Kiley Hamlin</span>, <span >
-      Laurie R. Santos</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.3389/fpsyg.2019.00591" target="_blank" rel="noopener">
-  DOI
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
+  Dataset
 </a>
 
 
 
-    </div>
+  
     
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-        </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2018">
-          
-
-
-
-
-
-
-
   
 
 
 
-
-
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
+  Poster
+</a>
 
 
   
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="www.iamlindachang.com/publication/2018-jpsp/" >Social decoys: Leveraging choice architecture to alter social preferences</a>
-    </div>
-
-    
-    <a href="www.iamlindachang.com/publication/2018-jpsp/"  class="summary-link">
-      <div class="article-style">
-        Many of society’s most significant social decisions are made over sets of individuals: for example, evaluating a collection of job …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Linda W. Chang</span>, <span >
-      Mina Cikara</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
+    Slides
+  </a>
   
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1037/pspa0000117" target="_blank" rel="noopener">
-  DOI
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
+  Video
 </a>
 
 
   
   
-  
     
   
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://psyarxiv.com/yaevr/" target="_blank" rel="noopener">
-    Psyarxiv</a>
-
-  
-  
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://osf.io/eg6w5/" target="_blank" rel="noopener">
-    <i class="ai ai-osf mr-1"></i>OSF</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-        </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-0 year-2018">
-          
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="www.iamlindachang.com/publication/2018-behavscientist/" >Want to Debias Hiring? Change What Hiring Managers Focus On</a>
-    </div>
-
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Linda W. Chang</span>, <span >
-      Mina Cikara</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  
-  
-  
-    
-  
-  <a class="btn btn-outline-primary btn-page-header btn-sm" href="https://behavioralscientist.org/want-to-debias-hiring-change-what-hiring-managers-focus-on/" target="_blank" rel="noopener">
-    LINK</a>
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
-</div>
-
-        </div>
-
-        
-
-        
-          
-        
-
-        <div class="grid-sizer col-lg-12 isotope-item pubtype-2 year-2016">
-          
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-  
-
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="www.iamlindachang.com/publication/2016-curropinpsychol/" >Effects of intergroup threat on mind, brain, and behavior</a>
-    </div>
-
-    
-    <a href="www.iamlindachang.com/publication/2016-curropinpsychol/"  class="summary-link">
-      <div class="article-style">
-        Intergroup threat is one catalyst that shifts us from out-group disregard to out-group hostility. We review recent inter-disciplinary …
-      </div>
-    </a>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Linda W. Chang</span>, <span >
-      Amy R. Krosch</span>, <span >
-      Mina Cikara</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.copsyc.2016.06.004" target="_blank" rel="noopener">
-  DOI
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/#" target="_blank" rel="noopener">
+  Source Document
 </a>
 
 
 
-    </div>
+  
+  
+  
     
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="http://example.org" target="_blank" rel="noopener">
+    Custom Link</a>
 
-  </div>
-  <div class="ml-3">
-    
-    
-  </div>
+</p>
+
+  
+  
 </div>
 
         </div>
@@ -1399,59 +998,24 @@
           
 
 
-
-
-
-
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
 
   
-
-
-
-
-
-
-
   
 
-
-<div class="media stream-item view-compact">
-  <div class="media-body">
-
-    <div class="section-subheading article-title mb-0 mt-0">
-      <a href="www.iamlindachang.com/publication/2015-animbehav/" >Capuchin monkeys, Cebus apella, show no evidence for inequity aversion in a costly choice task</a>
-    </div>
-
-    
-    <a href="www.iamlindachang.com/publication/2015-animbehav/"  class="summary-link">
-      <div class="article-style">
-        Human adults and children respond negatively to inequity, even sacrificing personal gain to avoid both disadvantageous (more for you, …
-      </div>
-    </a>
+  <span class="article-metadata li-cite-author">
     
 
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div>
-        
-
-  <span >
-      Katherine McAuliffe</span>, <span >
-      Linda W. Chang</span>, <span >
-      Kristin L. Leimgruber</span>, <span >
-      Rebecca Spaulding</span>, <span >
-      Peter R. Blake</span>, <span >
-      Laurie R. Santos</span>
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
+  <span class="author-highlighted">
+      Alice Wu 吳恩達</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Robert Ford</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
+  </span>
+  (2015).
+  <a href="/publication/journal-article/">An example journal article</a>.
+  <em>Journal of Source Themes, 1</em>(1).
+  
+  <p>
 
 
 
@@ -1461,37 +1025,165 @@
 
 
   
+    
+  
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://doi.org/10.1016/j.anbehav.2015.02.014" target="_blank" rel="noopener">
-  DOI
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="http://arxiv.org/pdf/1512.04133v1" target="_blank" rel="noopener">
+  PDF
 </a>
 
 
 
-    </div>
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/journal-article/cite.bib">
+  Cite
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
+    Slides
+  </a>
+  
+
+
+
+
+
+</p>
+
+  
+  
+</div>
+
+        </div>
+
+        
+
+        
+          
+        
+
+        <div class="grid-sizer col-lg-12 isotope-item pubtype-1 year-2013">
+          
+
+
+<div class="pub-list-item view-citation" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
     
 
-  </div>
-  <div class="ml-3">
+  <span class="author-highlighted">
+      Alice Wu 吳恩達</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>, <span >
+      Robert Ford</span><i class="author-notes fas fa-info-circle" data-toggle="tooltip" title="Equal contribution"></i>
+  </span>
+  (2013).
+  <a href="/publication/conference-paper/">An example conference paper</a>.
+  In <em>ICW</em>.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+
+
+
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="/publication/conference-paper/conference-paper.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+<a href="#" class="btn btn-outline-primary btn-page-header btn-sm js-cite-modal"
+        data-filename="/publication/conference-paper/cite.bib">
+  Cite
+</a>
+
+
+  
+  
     
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
     
-  </div>
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/project/example/">
+    Project
+  </a>
+  
+
+
+
+
+  
+  <a class="btn btn-outline-primary btn-page-header btn-sm" href="/slides/example/" target="_blank">
+    Slides
+  </a>
+  
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://youtube.com" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary btn-page-header btn-sm" href="https://github.com/wowchemy/wowchemy-hugo-themes" target="_blank" rel="noopener">
+  Source Document
+</a>
+
+
+
+</p>
+
+  
+  
 </div>
 
         </div>
@@ -1557,7 +1249,7 @@
 
   
   <p class="powered-by copyright-license-text">
-    © 2023 Linda Chang. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
+    © 2023 Me. This work is licensed under <a href="https://creativecommons.org/licenses/by-nc-nd/4.0" rel="noopener noreferrer" target="_blank">CC BY NC ND 4.0</a>
   </p>
   
 
@@ -1600,7 +1292,7 @@
   
 
 
-<script src="/www.iamlindachang.com/js/vendor-bundle.min.1d4346c6f7d46c340dc0a9058dd85c13.js"></script>
+<script src="/js/vendor-bundle.min.1d4346c6f7d46c340dc0a9058dd85c13.js"></script>
 
 
 
@@ -1673,7 +1365,7 @@
 
 
 
-  <script src="/www.iamlindachang.com/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
+  <script src="/js/wowchemy-headroom.db4755770454eb63685f8de785c0a172.js" type="module"></script>
 
 
 
@@ -1687,7 +1379,7 @@
   
 
 
-<script src="/www.iamlindachang.com/en/js/wowchemy.min.c84202fca2a6efbbecbaf0e8358c1d51.js"></script>
+<script src="/en/js/wowchemy.min.c84202fca2a6efbbecbaf0e8358c1d51.js"></script>
 
 
 
@@ -1723,7 +1415,7 @@
 </div>
 
 
-  <script src="/www.iamlindachang.com/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
+  <script src="/js/wowchemy-publication.68f8d7090562ca65fc6d3cb3f8f2d2cb.js" type="module"></script>
 
 
 
