@@ -2,14 +2,14 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags | linda w. chang</title>
-    <link>iamlindachang.github.io/tags/</link>
-      <atom:link href="iamlindachang.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <link>www.iamlindachang.com/tags/</link>
+      <atom:link href="www.iamlindachang.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <description>Tags</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 29 Mar 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/iamlindachang.github.io/media/icon_hu5377b88c48c84cb90fc4800219acf32a_96197_512x512_fill_lanczos_center_3.png</url>
+      <url>/www.iamlindachang.com/media/icon_hu5377b88c48c84cb90fc4800219acf32a_96197_512x512_fill_lanczos_center_3.png</url>
       <title>Tags</title>
-      <link>iamlindachang.github.io/tags/</link>
+      <link>www.iamlindachang.com/tags/</link>
     </image>
     
   </channel>
