@@ -2,53 +2,53 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>0 | linda w. chang</title>
-    <link>iamlindachang.github.io/publication-type/0/</link>
-      <atom:link href="iamlindachang.github.io/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
+    <link>/publication-type/0/</link>
+      <atom:link href="/publication-type/0/index.xml" rel="self" type="application/rss+xml" />
     <description>0</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/iamlindachang.github.io/media/icon_hu5377b88c48c84cb90fc4800219acf32a_96197_512x512_fill_lanczos_center_3.png</url>
+      <url>/media/icon_hu5377b88c48c84cb90fc4800219acf32a_96197_512x512_fill_lanczos_center_3.png</url>
       <title>0</title>
-      <link>iamlindachang.github.io/publication-type/0/</link>
+      <link>/publication-type/0/</link>
     </image>
     
     <item>
       <title>Does counting change what counts? Quantification fixation biases decision-making</title>
-      <link>iamlindachang.github.io/publication/2023-qf/</link>
+      <link>/publication/2023-qf/</link>
       <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>iamlindachang.github.io/publication/2023-qf/</guid>
+      <guid>/publication/2023-qf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Evaluating the efficacy of shortlist quotas to promote gender diversity</title>
-      <link>iamlindachang.github.io/publication/2023-shortlistquotas/</link>
+      <link>/publication/2023-shortlistquotas/</link>
       <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>iamlindachang.github.io/publication/2023-shortlistquotas/</guid>
+      <guid>/publication/2023-shortlistquotas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>On the limits of anonymization for promoting diversity in organizations</title>
-      <link>iamlindachang.github.io/publication/2023-anonymization/</link>
+      <link>/publication/2023-anonymization/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>iamlindachang.github.io/publication/2023-anonymization/</guid>
+      <guid>/publication/2023-anonymization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pre-commitment to evaluation criteria improves decision-making</title>
-      <link>iamlindachang.github.io/publication/2020-precommitment/</link>
+      <link>/publication/2020-precommitment/</link>
       <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
-      <guid>iamlindachang.github.io/publication/2020-precommitment/</guid>
+      <guid>/publication/2020-precommitment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Want to Debias Hiring? Change What Hiring Managers Focus On</title>
-      <link>iamlindachang.github.io/publication/2018-behavscientist/</link>
+      <link>/publication/2018-behavscientist/</link>
       <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
-      <guid>iamlindachang.github.io/publication/2018-behavscientist/</guid>
+      <guid>/publication/2018-behavscientist/</guid>
       <description></description>
     </item>
     

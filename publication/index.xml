@@ -2,93 +2,93 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Research Papers | linda w. chang</title>
-    <link>iamlindachang.github.io/publication/</link>
-      <atom:link href="iamlindachang.github.io/publication/index.xml" rel="self" type="application/rss+xml" />
+    <link>/publication/</link>
+      <atom:link href="/publication/index.xml" rel="self" type="application/rss+xml" />
     <description>Research Papers</description>
     <generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Jul 2023 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>/iamlindachang.github.io/media/icon_hu5377b88c48c84cb90fc4800219acf32a_96197_512x512_fill_lanczos_center_3.png</url>
+      <url>/media/icon_hu5377b88c48c84cb90fc4800219acf32a_96197_512x512_fill_lanczos_center_3.png</url>
       <title>Research Papers</title>
-      <link>iamlindachang.github.io/publication/</link>
+      <link>/publication/</link>
     </image>
     
     <item>
       <title>Does counting change what counts? Quantification fixation biases decision-making</title>
-      <link>iamlindachang.github.io/publication/2023-qf/</link>
+      <link>/publication/2023-qf/</link>
       <pubDate>Thu, 06 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>iamlindachang.github.io/publication/2023-qf/</guid>
+      <guid>/publication/2023-qf/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Evaluating the efficacy of shortlist quotas to promote gender diversity</title>
-      <link>iamlindachang.github.io/publication/2023-shortlistquotas/</link>
+      <link>/publication/2023-shortlistquotas/</link>
       <pubDate>Tue, 04 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>iamlindachang.github.io/publication/2023-shortlistquotas/</guid>
+      <guid>/publication/2023-shortlistquotas/</guid>
       <description></description>
     </item>
     
     <item>
       <title>On the limits of anonymization for promoting diversity in organizations</title>
-      <link>iamlindachang.github.io/publication/2023-anonymization/</link>
+      <link>/publication/2023-anonymization/</link>
       <pubDate>Thu, 01 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>iamlindachang.github.io/publication/2023-anonymization/</guid>
+      <guid>/publication/2023-anonymization/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Pre-commitment to evaluation criteria improves decision-making</title>
-      <link>iamlindachang.github.io/publication/2020-precommitment/</link>
+      <link>/publication/2020-precommitment/</link>
       <pubDate>Sat, 06 May 2023 00:00:00 +0000</pubDate>
-      <guid>iamlindachang.github.io/publication/2020-precommitment/</guid>
+      <guid>/publication/2020-precommitment/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Comparing value coding models of context dependence in social choice</title>
-      <link>iamlindachang.github.io/publication/2019-jesp/</link>
+      <link>/publication/2019-jesp/</link>
       <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
-      <guid>iamlindachang.github.io/publication/2019-jesp/</guid>
+      <guid>/publication/2019-jesp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Do dogs prefer helpers in an infant-based social evaluation task?</title>
-      <link>iamlindachang.github.io/publication/2019-frontpsychol/</link>
+      <link>/publication/2019-frontpsychol/</link>
       <pubDate>Fri, 29 Mar 2019 00:00:00 +0000</pubDate>
-      <guid>iamlindachang.github.io/publication/2019-frontpsychol/</guid>
+      <guid>/publication/2019-frontpsychol/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Social decoys: Leveraging choice architecture to alter social preferences</title>
-      <link>iamlindachang.github.io/publication/2018-jpsp/</link>
+      <link>/publication/2018-jpsp/</link>
       <pubDate>Wed, 01 Aug 2018 00:00:00 +0000</pubDate>
-      <guid>iamlindachang.github.io/publication/2018-jpsp/</guid>
+      <guid>/publication/2018-jpsp/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Want to Debias Hiring? Change What Hiring Managers Focus On</title>
-      <link>iamlindachang.github.io/publication/2018-behavscientist/</link>
+      <link>/publication/2018-behavscientist/</link>
       <pubDate>Tue, 22 May 2018 00:00:00 +0000</pubDate>
-      <guid>iamlindachang.github.io/publication/2018-behavscientist/</guid>
+      <guid>/publication/2018-behavscientist/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Effects of intergroup threat on mind, brain, and behavior</title>
-      <link>iamlindachang.github.io/publication/2016-curropinpsychol/</link>
+      <link>/publication/2016-curropinpsychol/</link>
       <pubDate>Thu, 16 Jun 2016 00:00:00 +0000</pubDate>
-      <guid>iamlindachang.github.io/publication/2016-curropinpsychol/</guid>
+      <guid>/publication/2016-curropinpsychol/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Capuchin monkeys, Cebus apella, show no evidence for inequity aversion in a costly choice task</title>
-      <link>iamlindachang.github.io/publication/2015-animbehav/</link>
+      <link>/publication/2015-animbehav/</link>
       <pubDate>Fri, 13 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>iamlindachang.github.io/publication/2015-animbehav/</guid>
+      <guid>/publication/2015-animbehav/</guid>
       <description></description>
     </item>
     
